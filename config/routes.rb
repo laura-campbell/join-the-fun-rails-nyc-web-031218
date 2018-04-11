@@ -1,4 +1,8 @@
 JoinTheFunRails::Application.routes.draw do
+  # resources :passengers, only: [:show, :new, :create, :edit, :update]
+  # resources :taxis, [:show, :new, :create, :edit, :update]
+  # resources :rides, [:show, :new, :create, :edit, :update, :index]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
